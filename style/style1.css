@@ -1,0 +1,119 @@
+/* {font-size:13pt;font-weight:normal;} */
+
+@media (min-width: 64em) {
+	.row {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row-reverse;
+	}
+	.col { flex-grow: 1; }
+}
+
+.grid {
+	border-collapse: collapse;
+}
+.col {
+	border: 6px double #fb5;
+	padding: 1em;
+}
+
+.user-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	list-style-type: none;
+	padding: 0;
+}
+.user-list li {
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+	flex: 10em;
+}
+.user-list::after {
+	content: "";
+}
+
+a {
+	text-decoration: none;
+	color: #f70;
+	font-weight: bold;
+	padding-right: 0.25em;
+}
+a:hover {color: #f20;}
+hr {
+	border-color: #fb5;
+}
+.text-center {
+	text-align: center
+}
+.advisory {
+	background: #fc4;
+	color: #222;
+	font-weight: bold;
+	padding: 1em;
+	border-radius: 0.25em;
+}
+h1 {
+	text-transform: uppercase;
+		color: #fb5;
+		font-family: monospace;
+}
+
+/* THEGOODS */
+#fancyboi::before {
+	content: "$ ";
+}
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes flash {
+		50% { opacity: 0; }
+	}
+	@keyframes reveal {
+		from { width: 2em; } /* Width of ::before */
+		  to { width: 100%; }
+	}
+	#fancyboi {
+		overflow: hidden;
+		white-space: nowrap;
+		animation: reveal 4s linear;
+		text-overflow: "";
+	}
+	#fancyboi::after {
+		content: "";
+		animation: flash 0.5s step-end infinite;
+	}
+}
+/* SDOOGEHT */
+
+.sourceCode {
+ color:#008000;
+}
+
+code > span.fl { 
+/* color: #008000; /
+}
+
+/* Page content */
+.content {
+	padding-top: 5px;
+}
+
+input[type="text"],
+textarea {
+	background-color: #333;
+	color: darkorange;
+}
+
+div.alert-warning {
+	background-color: darkred;
+}
+div.alert-success {
+	background-color: darkgreen;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	td {
+		display: block;
+	}
+}
