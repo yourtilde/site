@@ -71,7 +71,8 @@
       </div>
     </div>
     <div id="footer">
-      <p>Copyright &copy; YourTilde | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+      <a href="https://tilde.zone/@yourtilde">Mastodon</a> | <a href="https://tildegit.org/yourtilde/site">Source</a>
+        <br><a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
 </body>
