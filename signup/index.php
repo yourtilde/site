@@ -83,7 +83,7 @@
       </div>
     </div>
     <div id="footer">
-      <a href="https://tilde.zone/@yourtilde">Mastodon</a> | <a href="https://tildegit.org/yourtilde/site">Source</a>
+      <a href="https://tilde.zone/@yourtilde">Mastodon</a> | <a href="https://tildegit.org/yourtilde/site">Source</a> | <a href="https://wiki.yourtilde.com">Wiki</a> | <a href="https://yourtilde.com:6699">ZNC</a> | <a href="https://paste.yourtilde.com">Paste</a> | <a href="https://webmail.yourtilde.com">Webmail</a>
         <br><a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>

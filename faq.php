@@ -34,6 +34,10 @@
         <div class="sidebar">
         <!-- insert your sidebar items here -->
         <h3>Latest News</h3>
+        <h4>Tildeverse news(NNTP) service</h4>
+        <h5>14 November 2020</h5>
+        <p>We have setup a news (NNTP) server and linked it to the tildeverse news network connect to <b>yourtilde.com</b> with your favorite news client.</p>
+        <br>
         <h4>Ok back in action!</h4>
         <h5>1st November 2020</h5>
         <p>YourTilde is back and lots of great things planned.   Your accounts are as they were.  Everything should be functioning as expected.   Let us know if there is any issues in the #YourTilde  channel on IRC.</p>
@@ -41,15 +45,7 @@
         <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
         <div class="sidebar">
           <h3>Mailing List</h3>
-          <p>If you would like to join our mailing list, please enter your email address and click 'Subscribe'.</p>
-          <form method="post" action="https://lists.tildeverse.org/postorius/lists/yourtilde.lists.tildeverse.org/anonymous_subscribe" id="subscribe">
-
-	<input type="hidden" name="csrfmiddlewaretoken" value="1XZDawRwy0l7ueB45pzNiXIUYAa7HLKofdmU1aysaJPMaMpwjajgDRBHC3XF0Ujl">
-
-            <p style="padding: 0 0 9px 0;"><input class="form_control" required id="id_email" type="text" name="email_address" value="your email address" onclick="javascript: document.forms['subscribe'].email_address.value=''" /></p>
-		<p><input type="text" name="display_name" class="form-control" value="Your name (optional)" id="id_display_name"></p>
-            <p><input class="subscribe" name="subscribe" type="submit" value="Subscribe" /></p>
-          </form>
+          <p>To subscribe to our mailing list<br> <a href="mailto:yourtilde-join@lists.tildeverse.org?subject=Subscribe">click here</a></p>
         </div>
       </div>
       <div id="content">
@@ -74,7 +70,7 @@ We run a version of Fedora. Recently moved from CentOS to offer users newer vers
       </div>
     </div>
     <div id="footer">
-      <a href="https://tilde.zone/@yourtilde">Mastodon</a> | <a href="https://tildegit.org/yourtilde/site">Source</a>
+      <a href="https://tilde.zone/@yourtilde">Mastodon</a> | <a href="https://tildegit.org/yourtilde/site">Source</a> | <a href="https://wiki.yourtilde.com">Wiki</a> | <a href="https://yourtilde.com:6699">ZNC</a> | <a href="https://paste.yourtilde.com">Paste</a> | <a href="https://webmail.yourtilde.com">Webmail</a>
         <br><a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
